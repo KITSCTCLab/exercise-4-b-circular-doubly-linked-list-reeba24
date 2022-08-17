@@ -14,7 +14,7 @@ else:
     linkedlist.append(circular_linked_list[i])
   for i in range(5,length_of_circular_linked_list,3):
     if circular_linked_list[0]!=circular_linked_list[i]:
-      c+=-1
+      c+=1
       linkedlist.append(circular_linked_list[i])
     elif circular_linked_list[0]==circular_linked_list[i]:
       break
