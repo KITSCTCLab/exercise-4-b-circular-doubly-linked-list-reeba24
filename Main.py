@@ -11,7 +11,7 @@ if length_of_circular_linked_list==10 and circular_linked_list[0]==5:
     print(i,end=' ')
 else:
   for i in range(0,3):
-    linkedlist.append(circular_linked_list[i])
+    linkedlist.append(circular_linked_list[])
   for i in range(5,length_of_circular_linked_list,3):
     if circular_linked_list[0]!=circular_linked_list[i]:
       c+=0
